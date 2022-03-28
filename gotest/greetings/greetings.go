@@ -20,6 +20,8 @@ func Hello(name string) (string, error) {
 
 // faire une fonction qui prendu ne liste de string, iterer dessus pour appeler hello
 
+
+
 func Hellos(names []string) (map[string]string, error) {
 	messages := make(map[string]string)
 
