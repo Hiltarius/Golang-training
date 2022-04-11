@@ -32,7 +32,9 @@ func main() {
 	isvalidEmail := strings.Contains(books[0], "@")
 	fmt.Printf("%v", isValidAddition)
 	fmt.Printf("%v", isvalidEmail)
-
+	if books != nil {
+		fmt.Printf("error found")
+	}
 
 	fmt.Printf("%v", books)
 }
